@@ -1,6 +1,6 @@
 {
 	"name": "em-bench",
-	"version": "1.0.0",
+	"version": "1.0.5",
 	"description": "emBench is a Node.js package designed to provide benchmarking capabilities for Express.js applications",
 	"main": "index.ts",
 	"module": "dist/index.mjs",
