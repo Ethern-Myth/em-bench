@@ -1,0 +1,45 @@
+{
+	"name": "em-bench",
+	"version": "1.0.0",
+	"description": "emBench is a Node.js package designed to provide benchmarking capabilities for Express.js applications",
+	"main": "index.ts",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"files": [
+		"assets",
+		"dist"
+	],
+	"scripts": {
+		"build": "rimraf dist && tsup",
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/Ethern-Myth/em-bench.git"
+	},
+	"keywords": [
+		"javascript",
+		"typescript",
+		"express",
+		"benchmark"
+	],
+	"author": "Ethern Myth",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Ethern-Myth/em-bench/issues"
+	},
+	"homepage": "https://github.com/Ethern-Myth/em-bench#readme",
+	"devDependencies": {
+		"@types/express": "^4.17.21",
+		"@types/jest": "^29.5.12",
+		"@types/node": "^20.12.7",
+		"jest": "^29.7.0",
+		"rimraf": "^5.0.5",
+		"ts-jest": "^29.1.2",
+		"tsup": "^8.0.2",
+		"typescript": "^5.4.2"
+	},
+	"dependencies": {
+		"express": "^4.19.2"
+	}
+}
